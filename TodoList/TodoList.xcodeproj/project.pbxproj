@@ -16,6 +16,8 @@
 		ED827BEF2A3DB00900AA8F3B /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED827BEE2A3DB00900AA8F3B /* TodoListTests.swift */; };
 		ED827BF92A3DB00900AA8F3B /* TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED827BF82A3DB00900AA8F3B /* TodoListUITests.swift */; };
 		ED827BFB2A3DB00900AA8F3B /* TodoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED827BFA2A3DB00900AA8F3B /* TodoListUITestsLaunchTests.swift */; };
+		ED827C082A3DB11F00AA8F3B /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED827C072A3DB11F00AA8F3B /* TodoItem.swift */; };
+		ED827C0A2A3DB18900AA8F3B /* FileCach.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED827C092A3DB18900AA8F3B /* FileCach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ED827BF42A3DB00900AA8F3B /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED827BF82A3DB00900AA8F3B /* TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITests.swift; sourceTree = "<group>"; };
 		ED827BFA2A3DB00900AA8F3B /* TodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED827C072A3DB11F00AA8F3B /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		ED827C092A3DB18900AA8F3B /* FileCach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				ED827BD72A3DB00600AA8F3B /* AppDelegate.swift */,
 				ED827BD92A3DB00600AA8F3B /* SceneDelegate.swift */,
+				ED827C072A3DB11F00AA8F3B /* TodoItem.swift */,
+				ED827C092A3DB18900AA8F3B /* FileCach.swift */,
 				ED827BDB2A3DB00600AA8F3B /* ViewController.swift */,
 				ED827BDD2A3DB00600AA8F3B /* Main.storyboard */,
 				ED827BE02A3DB00900AA8F3B /* Assets.xcassets */,
@@ -260,7 +266,9 @@
 			files = (
 				ED827BDC2A3DB00600AA8F3B /* ViewController.swift in Sources */,
 				ED827BD82A3DB00600AA8F3B /* AppDelegate.swift in Sources */,
+				ED827C082A3DB11F00AA8F3B /* TodoItem.swift in Sources */,
 				ED827BDA2A3DB00600AA8F3B /* SceneDelegate.swift in Sources */,
+				ED827C0A2A3DB18900AA8F3B /* FileCach.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
